@@ -39,9 +39,10 @@ public class Solution {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner scanner = new Scanner(System.in);
-         long a = scanner.nextLong();
-         long b = scanner.nextLong();
-         System.out.println(BigInteger.valueOf(a).add(BigInteger.valueOf(b)));
-         System.out.println(BigInteger.valueOf(a).multiply(BigInteger.valueOf(b)));
+         
+         BigInteger a = scanner.nextBigInteger();
+         BigInteger b = scanner.nextBigInteger();
+         System.out.println(a.add(b));
+         System.out.println((a).multiply(b));
     }
 }
